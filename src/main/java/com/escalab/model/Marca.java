@@ -23,7 +23,7 @@ public class Marca {
 	@Column(name = "direccion", nullable = true, length = 50)
 	private String direccion;
 	
-	@Column(name = "ciudad", nullable = false, length = 20)
+	@Column(name = "ciudad", nullable = true, length = 20)
 	private String ciudad;
 		
 	public Integer getIdMarca() {

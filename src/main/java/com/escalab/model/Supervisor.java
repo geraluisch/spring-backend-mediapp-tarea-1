@@ -24,7 +24,7 @@ public class Supervisor {
 	@Column(name = "direccion", nullable = true, length = 150)
 	private String direccion;
 	
-	@Size(min = 9, max = 9, message = "Telefono debe tener 9 caracteres")
+	@Size(min = 9, max = 9, message = "Teléfono debe tener 9 caracteres")
 	@Column(name = "telefono", nullable = true, length = 9)
 	private String telefono;
 

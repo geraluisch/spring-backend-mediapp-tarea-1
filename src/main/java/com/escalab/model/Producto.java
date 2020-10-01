@@ -23,7 +23,7 @@ public class Producto {
 	@JoinColumn(name = "id_marca", nullable = false, foreignKey = @ForeignKey(name = "FK_producto_marca"))
 	private Marca marca;
 	
-	@Size(min = 9, max = 9, message = "Telefono debe tener 9 caracteres")
+	@Size(min = 9, max = 9, message = "La descripción debe tener 9 caracteres")
 	@Column(name = "descripcion", nullable = true, length = 50)
 	private String descripcion;
 	
