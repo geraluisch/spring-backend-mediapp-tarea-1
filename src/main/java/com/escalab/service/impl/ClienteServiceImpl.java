@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.escalab.model.Cliente;
 import com.escalab.repo.IClienteRepo;
 import com.escalab.service.IClienteService;
 
+@Service
 public class ClienteServiceImpl implements IClienteService {
 	
 	@Autowired

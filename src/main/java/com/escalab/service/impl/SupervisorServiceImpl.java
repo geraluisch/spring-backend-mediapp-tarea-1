@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.escalab.model.Supervisor;
 import com.escalab.repo.ISupervisorRepo;
 import com.escalab.service.ISupervisorService;
 
+@Service
 public class SupervisorServiceImpl implements ISupervisorService {
 	
 	@Autowired

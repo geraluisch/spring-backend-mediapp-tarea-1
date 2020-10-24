@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.escalab.model.Marca;
 import com.escalab.repo.IMarcaRepo;
 import com.escalab.service.IMarcaService;
 
+@Service
 public class MarcaServiceImpl implements IMarcaService {
 	
 	@Autowired

@@ -22,6 +22,7 @@ import com.escalab.exception.ModeloNotFoundException;
 import com.escalab.model.Cliente;
 import com.escalab.service.IClienteService;
 
+
 @RestController
 @RequestMapping("/cliente")
 public class ClienteController {
@@ -66,6 +67,6 @@ public class ClienteController {
 		}
 		service.eliminar(id);
 		return new ResponseEntity<Object>(HttpStatus.OK);
-	}
+	} 
 
 }

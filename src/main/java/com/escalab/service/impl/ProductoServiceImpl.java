@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.escalab.model.Producto;
 import com.escalab.repo.IProductoRepo;
 import com.escalab.service.IProductoService;
 
+@Service
 public class ProductoServiceImpl implements IProductoService {
 	
 	@Autowired
